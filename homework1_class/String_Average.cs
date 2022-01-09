@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace homework1_class
+namespace homework1
 {
     public  class StringAverage
     {
