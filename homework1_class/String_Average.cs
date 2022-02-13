@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace homework1
 {
@@ -25,10 +26,9 @@ namespace homework1
                 int numResult = 0;
                 foreach (string strNum in num)
                 {
-                    foreach(KeyValuePair<int,string> kvr in myDic)
-                        if (strNum == kvr.Value)
+                    if (myDic.ContainsValue(strNum))
                     {
-                            numResult += kvr.Key;
+                        numResult += myDic.FirstOrDefault(x => x.Value == strNum).Key;
                     }
                 }
 
@@ -40,11 +40,7 @@ namespace homework1
                 }
                 else
                 {
-                    foreach (KeyValuePair<int, string> kvr in myDic)
-                        if (numResult == kvr.Key)
-                        {
-                            str = kvr.Value;
-                        }
+                    str = myDic[numResult];
                 }
             }
             else
