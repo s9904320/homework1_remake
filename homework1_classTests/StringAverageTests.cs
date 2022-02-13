@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using homework1;
+using averagestring;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace homework1.Tests
+namespace averagestring.Tests
 {
     [TestClass()]
     public class StringAverageTests

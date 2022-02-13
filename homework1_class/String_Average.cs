@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace homework1
+namespace averagestring
 {
     public  class StringAverage
     {

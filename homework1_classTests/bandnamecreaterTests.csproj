@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\homework1_class\homework1_class.csproj" />
+    <ProjectReference Include="..\homework1_class\bandnamecreater.csproj" />
   </ItemGroup>
 
 </Project>
